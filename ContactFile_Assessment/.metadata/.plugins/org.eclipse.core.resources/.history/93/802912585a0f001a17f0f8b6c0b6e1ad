@@ -1,0 +1,44 @@
+package com.tyss.mobileapp.util;
+
+import com.tyss.mobileapp.dao.MobileDAO;
+import com.tyss.mobileapp.dao.MobileDAOImpl;
+
+public class MobileContact {
+	private MobileContact() {
+
+	}
+
+	public static MobileDAO getMobileDAO() {
+		return new MobileDAOImpl();
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import com.ustglobal.empapp.dao.EmployeeDAO;
+// import com.ustglobal.empapp.dao.EmployeeDAOImpl;
+//
+// public class EmployeeManger {
+// private EmployeeManger() {
+//
+// }
+// public static EmployeeDAO getEmployeeDAO() {
+// return new EmployeeDAOImpl();
+// }
+// }*/

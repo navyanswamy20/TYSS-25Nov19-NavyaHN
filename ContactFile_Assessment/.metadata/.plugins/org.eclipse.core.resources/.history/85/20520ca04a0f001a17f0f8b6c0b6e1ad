@@ -1,0 +1,9 @@
+package com.tyss.mobileapp.dao;
+
+public interface MobileDAO {
+	public String showAllContacts();
+
+	public String showOneDetail(String name);
+
+	public void operateContact();
+}

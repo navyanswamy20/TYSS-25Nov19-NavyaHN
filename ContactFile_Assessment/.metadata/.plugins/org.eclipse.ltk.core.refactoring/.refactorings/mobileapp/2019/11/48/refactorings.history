@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.tyss.mobileapp.dao.MobileDSOImpl&apos; to &apos;MobileDAOImpl&apos;&#x0D;&#x0A;- Original project: &apos;mobileapp&apos;&#x0D;&#x0A;- Original element: &apos;com.tyss.mobileapp.dao.MobileDSOImpl&apos;&#x0D;&#x0A;- Renamed element: &apos;com.tyss.mobileapp.dao.MobileDAOImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MobileDSOImpl&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.tyss.mobileapp.dao{MobileDSOImpl.java[MobileDSOImpl" matchStrategy="1" name="MobileDAOImpl" qualified="false" references="true" similarDeclarations="false" stamp="1574660390166" textual="false" version="1.0"/>
+</session>

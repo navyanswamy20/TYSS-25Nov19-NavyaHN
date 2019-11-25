@@ -1,0 +1,45 @@
+package com.tyss.mobileapp.dao;
+
+import java.util.List;
+
+import com.tyss.mobileapp.dto.MobileBean;
+
+public interface MobileDAO {
+	public List<MobileBean> getAllContacts();
+
+	public MobileBean showOneDetail(String name);
+
+	public void operateContact();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//package com.ustglobal.empapp.dao;
+//
+//import java.util.List;
+//
+//import com.ustglobal.empapp.dto.EmployeeBean;
+//
+//public interface EmployeeDAO {
+//	public List<EmployeeBean> getAllEmployeeData();
+//	public EmployeeBean searchEmployeeData(int id);
+//	public int insertEmployeeData(EmployeeBean bean);
+//	public int updateEmployeeData(EmployeeBean bean);
+//	public int deleteEmployeeData(int id);
+//}
